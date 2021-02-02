@@ -7,3 +7,4 @@ Developer's notes based on next CSS courses:
   Topics:
   - Flexbox
   - Grid with Flex
+  - Card design with Flex
