@@ -8,3 +8,4 @@ Developer's notes based on next CSS courses:
   - Flexbox
   - Grid with Flex
   - Card design with Flex
+  - Card refactor with Tailwind.
