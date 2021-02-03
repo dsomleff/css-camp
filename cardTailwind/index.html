@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,700&display=swap" rel="stylesheet">
+    <!-- End Font -->
+
+    <!-- Style -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <!-- End Style -->
+</head>
+<body class="flex items-center justify-center">
+    
+    <div class="card flex rounded-2xl">
+        <!-- left -->
+        <div class="card-left flex flex-col justify-between rounded-2xl p-6 items-center text-center text-white">
+            <a href="#" class="card-skill-button text-xs rounded-2xl py-1 px-6">LANGUAGES</a>
+
+            <img src="https://laracasts.s3.amazonaws.com/series/thumbnails/css-for-backend-developers.png" width="130" height="130">
+
+            <span class="text-sm">Intermediate Difficulty</span>
+        </div>
+        <!-- end left -->
+
+        <!-- right -->
+        <div class="card-right flex flex-col text-gray-500 p-6">
+            <h3 class="text-gray-700 text-xl font-semibold mb-4"><a href="#" class="color-inherit">Modern CSS for Backend Developers</a></h3>
+
+            <p class="flex-1">
+                I know too many backend developers who are stifled by one glaring phobia: CSS. How do you construct a layout when nothing lines up? Every browse...
+            </p>
+
+            <div class="flex text-sm">
+                <div class="flex items-center mr-4">
+                    <img src="https://image.flaticon.com/icons/svg/864/864685.svg" width="15" height="15" class="mr-2">
+
+                    17 episodes
+                </div>
+                
+                <div class="flex items-center">
+                    <img src="https://image.flaticon.com/icons/svg/2088/2088617.svg" width="15" height="15" class="mr-2">
+
+                    3h 35m
+                </div>
+            </div>
+        </div>
+        <!-- end right -->
+    </div>
+</body>
+</html>
