@@ -9,3 +9,4 @@ Developer's notes based on next CSS courses:
   - Grid with Flex
   - Card design with Flex
   - Card refactor with Tailwind.
+  - Sticky Footer with Flex and Tailwind.
