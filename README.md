@@ -22,3 +22,5 @@ All ideas, tasks and some solutions was created during the watching ["CSS - The 
 - box-sizing: content-box, border-box
 - display: block, inline, none
 - Pseudo classes and Elements: `:hover`, `::first-letter`
+- BEM: CSS naming convention
+- Color Function: `rgb()`, `rgba()`
