@@ -28,5 +28,9 @@ All ideas, tasks and some solutions was created during the watching ["CSS - The 
 - `calc()` function to calculate `width`
 - `float` to position elements differently, before `flex-box` was introduced. Use with `clear` to not allow another elements take place of floating element, but this is a Bad Approach. `float` great for positioning images and text.
 
+# Notes
+- `id=""` selectors have a higher specificity than class selector or pseudo selectors.
+- `!important` overwrite specificity, but it's usually bad practice.
+
 # Tips & Tricks
-- If elements have `text-align: center;` and still not positioned well, apply `margin: auto` to center elements more properly.
+- Apply `margin: auto` to center group of elements more properly.
