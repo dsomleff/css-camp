@@ -17,7 +17,7 @@ All ideas, tasks and some solutions was created during the watching ["CSS - The 
 - Different types of selectors
 - property and values
 - Combinators
-- Box model: content, padding, border, margin.
+- Box model: content, padding, border, margin
 - Styling Width and Hight
 - box-sizing: content-box, border-box
 - display: block, inline, none
@@ -26,6 +26,7 @@ All ideas, tasks and some solutions was created during the watching ["CSS - The 
 - Color Function: `rgb()`, `rgba()`
 - inherit
 - `calc()` function to calculate `width`
+- `float` to position elements differently, before `flex-box` was introduced. Use with `clear` to not allow another elements take place of floating element, but this is a Bad Approach. `float` great for positioning images and text.
 
 # Tips & Tricks
 - If elements have `text-align: center;` and still not positioned well, apply `margin: auto` to center elements more properly.
