@@ -25,6 +25,7 @@ All ideas, tasks and some solutions was created during the watching ["CSS - The 
 - BEM: CSS naming convention
 - Color Function: `rgb()`, `rgba()`
 - inherit
+- `calc()` function to calculate `width`
 
 # Tips & Tricks
 - If elements have `text-align: center;` and still not positioned well, apply `margin: auto` to center elements more properly.
