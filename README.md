@@ -35,3 +35,4 @@ All ideas, tasks and some solutions was created during the watching ["CSS - The 
 
 # Tips & Tricks
 - Apply `margin: auto` to center group of elements more properly.
+- If `html` or any parent element have a `margin` property, for correct `position` display, add `top: 0` and `left: 0`.
