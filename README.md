@@ -31,6 +31,7 @@ All ideas, tasks and some solutions was created during the watching ["CSS - The 
 # Notes
 - `id=""` selectors have a higher specificity than class selector or pseudo selectors.
 - `!important` overwrite specificity, but it's usually bad practice.
+- `position: fixed` took element out of html document flow. Now it leaves independently and no longer exist for other html elements. The position of this element only depends on the viewport (browser window). And all properties will be applied according to viewport not html document. Applicable to block and inline elements.
 
 # Tips & Tricks
 - Apply `margin: auto` to center group of elements more properly.
