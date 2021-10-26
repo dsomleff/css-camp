@@ -34,6 +34,7 @@ All ideas, tasks and some solutions was created during the watching ["CSS - The 
 - `!important` overwrite specificity, but it's usually bad practice.
 - `position: fixed` took element out of html document flow. Now it leaves independently and no longer exist for other html elements. The position of this element only depends on the viewport (browser window). And all properties will be applied according to viewport not html document. Applicable to block and inline elements.
 - `z-index` using to change order of elements in depth. To position element above - positive number. To position element below - negative number. Numbers hierarchy dictates the display order. Can be used only with elements that have `position` property with no default value.
+- `position: absolute`. If non parent element has the position property applied, positioning context applied to viewport. If parent do has position property, element with `position: absolute` will be bound to parent element.
 
 # Tips & Tricks
 - Apply `margin: auto` to center group of elements more properly.
