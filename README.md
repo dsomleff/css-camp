@@ -36,6 +36,7 @@ All ideas, tasks and some solutions was created during the watching ["CSS - The 
 - `z-index` using to change order of elements in depth. To position element above - positive number. To position element below - negative number. Numbers hierarchy dictates the display order. Can be used only with elements that have `position` property with no default value.
 - `position: absolute`. If non parent element has the position property applied, positioning context applied to viewport. If parent do has position property, element with `position: absolute` will be bound to parent element. Change position according to parent.
 - `position: absolute` allow to move element according to it's previous position.
+- `overflow:hidden` in parent element, will hide/cut child element with changed `position` property.
 
 # Tips & Tricks
 - Apply `margin: auto` to center group of elements more properly.
